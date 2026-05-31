@@ -1,0 +1,6 @@
+{
+  "name": "OmniTask",
+  "description": "Sleek local offline productivity suite featuring timestamped notes, interactive calculator, prioritized to-do list, and integrated visual goal & habit trackers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

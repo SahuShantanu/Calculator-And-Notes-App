@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.65"
+        android:scaleY="0.65">
+        <!-- Notepad container boundary with subtle depth -->
+        <path
+            android:fillColor="#24212A"
+            android:strokeColor="#443F4D"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M30,26 h48 a6,6 0 0 1 6,6 v44 a6,6 0 0 1 -6,6 h-48 a6,6 0 0 1 -6,-6 v-44 a6,6 0 0 1 6,-6 z" />
+
+        <!-- Notepad paper stripes / placeholder lines -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#565161"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M38,38 h32 M38,48 h22 M38,58 h14" />
+
+        <!-- Radiant, floating Checkmark representing completed productivity tasks -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#D0BCFF"
+            android:strokeWidth="6.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M48,64 L58,74 L84,48" />
+
+        <!-- Mini decorative spark to symbolify speed / smoothness and completeness -->
+        <path
+            android:fillColor="#E8DEF8"
+            android:pathData="M81,32 a2,2 0 1 1 -2,2 a2,2 0 0 1 2,-2 z" />
+    </group>
+</vector>
